@@ -1,0 +1,3 @@
+S3method(plot,mosaic)
+S3method(summary,mosaic)
+export(inhull,mgraph,mhull,ptpattern,tgraph)

@@ -1,0 +1,18 @@
+Package: mosaic
+Type: Package
+Title: Mosaic Graph Computation Tools
+Version: 1.0
+Date: 2020-09-04
+Author: John Alroy
+Maintainer: John Alroy <john.alroy@mq.edu.au>
+Description: The mosaic package implements a graph theoretic algorithm that
+    estimates the area of any two-dimensional shape from point data. It
+    includes plot and summary methods and utility functions for generating
+    non-convex hulls around the graphs, random point data, and minimum
+    spanning trees.
+License: GPL-2 | GPL-3
+RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
