@@ -1,2 +1,4 @@
 # mosaic
-the mosaic package for area estimation
+The mosaic package implements a graph theoretic algorithm that estimates the area of any two-dimensional shape from point data. It includes plot and summary methods and utility functions for generating non-convex hulls around the graphs, random point data, and minimum spanning trees.
+
+The primary function in this package is mgraph, which creates mosaic objects that can be passed to plot.mosaic and summary.mosaic methods. mhull computes non-convex hulls (outlines) around the graphs, and inhull determines which coordinates out of any supplied list fall within the hull. tgraph computes a minimum spanning tree that can also be plotted. mosaic also includes a simple utility function called ptpattern that randomly generates sets of data points falling into a pattern such as a circle or ring.
